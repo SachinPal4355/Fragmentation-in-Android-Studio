@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="198dp"
+            android:layout_height="69dp"
+            android:shadowColor="@color/black"
+            android:text="Button-1!!!"
+            android:textColor="@color/black"
+            android:textSize="23dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.344" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:text="Button-2!!!"
+            android:textColor="@color/black"
+            android:textSize="23dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.165" />
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="327dp"
+            tools:layout_editor_absoluteX="38dp"
+            tools:layout_editor_absoluteY="370dp" />
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="274dp"
+            app:srcCompat="@drawable/hand_drawn_floral_pattern_peach_tones_52683_63665" />
+
+    </LinearLayout>

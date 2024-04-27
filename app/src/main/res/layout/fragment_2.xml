@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_2"
+    android:background="#040404">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/fragment_2"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:text="This is Fragment 2"
+        android:layout_marginTop="100dp"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="30dp"/>
+
+</FrameLayout>
